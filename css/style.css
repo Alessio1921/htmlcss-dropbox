@@ -49,6 +49,7 @@ li a{
   background-color: #0061ff;
   padding: 8px 20px;
   color: white;
+  text-decoration: none;
 }
 /* end header */
 /* main */
@@ -60,7 +61,7 @@ h1{
   background-color: #b4d0e7;
   height: 70vh;
 }
-.container{
+.jumbotron{
   width: 80%;
   min-width: 500px;
   max-width: 1180px;
@@ -72,7 +73,7 @@ h1{
 .box-medium{
   width: 34%;
 }
-.container a{
+.jumbotron a{
   margin: 2rem 0 1rem 0;
   display: inline-block;
 }
@@ -85,4 +86,52 @@ h1{
 .box-medium,.jumbotron-img{
   padding-top: 2rem;
 }
+.box-medium i{
+  margin-top: 1.7rem;
+  font-weight: bold;
+  font-size: 1.7rem;
+}
 /* end jumbotron */
+.container{
+  width: 70%;
+  min-width: 500px;
+  max-width: 1180px;
+  margin: 10rem auto;
+}
+h2{
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.row{
+  width: calc(100% / 3);
+}
+.row-header{
+  border: solid #e2e2e3;
+  text-align: center;
+}
+.row-main{
+  border: solid #e2e2e3;
+  padding: 1.5rem;
+  font-size: .9rem;
+}
+.row-main div{
+  margin: 1.5rem 0;
+}
+main h3, main h4{
+  margin: 1rem 0;
+}
+.row-main p{
+  margin-bottom: 1rem;
+}
+main .btn{
+  display: inline-block;
+  margin: 1rem 0;
+}
+.row-main span{
+  display: inline-block;
+  margin-bottom: 2rem;
+}
+.span-underline{
+  padding-bottom: 2rem;
+  border-bottom: solid gray;
+}
