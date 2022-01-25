@@ -73,10 +73,14 @@ h1{
   margin: 2rem 0 1rem 0;
   display: inline-block;
 }
+.jumbotron, .box-medium{
+  display: inline-block;
+}
 .jumbotron{
   width: 66%;
 }
 .jumbotron img{
+  position: relative;
   top: 60px;
-  width: 50%%;
+  width: 100%;
 }
