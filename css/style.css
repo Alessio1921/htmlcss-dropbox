@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+  font-family: sans-serif;
+}
 /* float */
 .clearfix::after{
   clear: both;
@@ -16,6 +19,14 @@
   float: left;
 }
 /* end float */
+/* position */
+.relative{
+  position: relative;
+}
+.absolute{
+  position: absolute;
+}
+/* end position */
 /* start header */
 header{
   line-height: 70px ;
@@ -41,10 +52,31 @@ li a{
 }
 /* end header */
 /* main */
+h1{
+  padding-top: 3rem;
+  font-size: 4rem;
+}
 .background-blu{
   background-color: #b4d0e7;
 }
 .container{
   width: 80%;
+  min-width: 500px;
+  max-width: 1180px;
   margin: 0 auto;
+}
+.box-medium{
+  width: 34%;
+  padding: 2rem 0;
+}
+.container a{
+  margin: 2rem 0 1rem 0;
+  display: inline-block;
+}
+.jumbotron{
+  width: 66%;
+}
+.jumbotron img{
+  top: 60px;
+  width: 50%%;
 }
