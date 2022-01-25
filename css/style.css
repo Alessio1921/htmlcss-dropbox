@@ -3,3 +3,48 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* float */
+.clearfix::after{
+  clear: both;
+  content: "";
+  display: table;
+}
+.float-rx{
+  float: right;
+}
+.float-lx{
+  float: left;
+}
+/* end float */
+/* start header */
+header{
+  line-height: 70px ;
+  font-size: 0.9rem;
+}
+.main-logo img{
+  vertical-align: middle;
+  margin: 0 1rem;
+}
+ul li{
+  display: inline-block;
+  margin: 0 1rem;
+  list-style:none;
+}
+li a{
+  text-decoration: none;
+  color: black;
+}
+.btn{
+  background-color: #0061ff;
+  padding: 8px 20px;
+  color: white;
+}
+/* end header */
+/* main */
+.background-blu{
+  background-color: #b4d0e7;
+}
+.container{
+  width: 80%;
+  margin: 0 auto;
+}
