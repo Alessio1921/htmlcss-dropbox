@@ -58,6 +58,7 @@ h1{
 }
 .background-blu{
   background-color: #b4d0e7;
+  height: 70vh;
 }
 .container{
   width: 80%;
@@ -65,22 +66,23 @@ h1{
   max-width: 1180px;
   margin: 0 auto;
 }
+.box-medium,.jumbotron-img{
+  display: inline-block;
+}
 .box-medium{
   width: 34%;
-  padding: 2rem 0;
 }
 .container a{
   margin: 2rem 0 1rem 0;
   display: inline-block;
 }
-.jumbotron, .box-medium{
-  display: inline-block;
+.jumbotron-img{
+  width: 60%;
 }
-.jumbotron{
-  width: 66%;
-}
-.jumbotron img{
-  position: relative;
-  top: 60px;
+.jumbotron-img img{
   width: 100%;
 }
+.box-medium,.jumbotron-img{
+  padding-top: 2rem;
+}
+/* end jumbotron */
