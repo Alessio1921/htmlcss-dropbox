@@ -4,7 +4,8 @@
   box-sizing: border-box;
 }
 body{
-  font-family: sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-size: .9rem;
 }
 /* float */
 .clearfix::after{
@@ -55,7 +56,7 @@ li a{
 /* main */
 h1{
   padding-top: 3rem;
-  font-size: 4rem;
+  font-size: 3.8rem;
 }
 .background-blu{
   background-color: #b4d0e7;
@@ -63,7 +64,7 @@ h1{
 }
 .jumbotron{
   width: 80%;
-  min-width: 500px;
+  min-width: 750px;
   max-width: 1180px;
   margin: 0 auto;
 }
@@ -94,25 +95,28 @@ h1{
 /* end jumbotron */
 .container{
   width: 70%;
-  min-width: 500px;
+  min-width: 750px;
   max-width: 1180px;
   margin: 10rem auto;
 }
 h2{
   font-size: 2rem;
-  margin-bottom: 2rem;
+  margin-bottom:2rem;
 }
 .row{
-  width: calc(100% / 3);
+  width: calc((100% / 3) - 2.5rem);
+  margin: 2rem 2.5rem 2rem 0;
 }
 .row-header{
   border: solid #e2e2e3;
   text-align: center;
+  padding: 10px;
 }
 .row-main{
   border: solid #e2e2e3;
   padding: 1.5rem;
   font-size: .9rem;
+  height: 1100px;
 }
 .row-main div{
   margin: 1.5rem 0;
@@ -133,5 +137,29 @@ main .btn{
 }
 .span-underline{
   padding-bottom: 2rem;
-  border-bottom: solid gray;
+  border-bottom: solid #e2e2e3;
+  margin-right: .5rem;
+}
+i.fa-check{
+  color: #0061ff;
+}
+.row-main .gray{
+  color: gray;
+}
+.row-main h3{
+  font-size: 1.5rem;
+}
+.row-large{
+  width: 100%;
+}
+.row-main-large{
+  border: solid #e2e2e3;
+  font-size: 0.8rem;
+  padding: 2rem;
+}
+.row-main-large .btn{
+  margin:0;
+  top:1.5rem;
+  right: 1.5rem;
+  padding: 0.5rem 2.5rem;
 }
