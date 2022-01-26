@@ -67,10 +67,14 @@ h1{
   padding-top: 3rem;
   font-size: 3.8rem;
 }
-.background-blu{
+.background-blue{
   background-color: #b4d0e7;
   height: 70vh;
 }
+a{
+  color: #0061ff;
+}
+/* jumbotron */
 .jumbotron{
   width: 80%;
   min-width: 750px;
@@ -174,6 +178,7 @@ i.fa-check{
   padding: 0.5rem 2.5rem;
 }
 /* end row plane business  */
+/* start card business */
 .img-medium{
   width: 60%;
 }
@@ -194,11 +199,34 @@ i.fa-check{
   font-size: 1.2rem;
   margin-top: 0;
 }
-
-
-
-
+/* end card business */
+/* start team part */
+.team .container h2{
+  width: 49%;
+}
+.svg{
+  height: 60%;
+  background-color: red;
+}
+.svg-lx{
+  background-color: greenyellow;
+  height: 100%;
+  width: 30%;
+}
+.svg-rx{
+  background-color: orange;
+  height: 100%;
+  width: 30%;
+}
+.svg-text{
+  width: 70%;
+  margin:0 auto;
+  height: 40%;
+  padding-top: 5rem;
+}
+.svg-text h2{
+  width: 50%;
+}
 footer{
-  height: 50vh;
   background-color: #000000;
 }
