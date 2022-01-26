@@ -46,13 +46,22 @@ li a{
   text-decoration: none;
   color: black;
 }
+/* end header */
+/* button */
 .btn{
-  background-color: #0061ff;
   padding: 8px 20px;
-  color: white;
   text-decoration: none;
 }
-/* end header */
+.btn-blue{
+  background-color: #0061ff;
+  color: white;
+}
+.btn-white{
+  background-color: white;
+  color: #000000;
+  border: solid #000000;
+}
+/* end button */
 /* main */
 h1{
   padding-top: 3rem;
@@ -145,12 +154,13 @@ i.fa-check{
 }
 .row-main .gray{
   color: gray;
+  font-size: .85rem;
 }
 .row-main h3{
   font-size: 1.5rem;
 }
 .row-large{
-  width: 100%;
+  width: calc(100% - 2.5rem);
 }
 .row-main-large{
   border: solid #e2e2e3;
@@ -162,4 +172,33 @@ i.fa-check{
   top:1.5rem;
   right: 1.5rem;
   padding: 0.5rem 2.5rem;
+}
+/* end row plane business  */
+.img-medium{
+  width: 60%;
+}
+.img-medium img{
+  width: 100%;
+}
+.info-business{
+  margin-top: 6rem;
+}
+.card{
+  width: calc((100% / 3) - 2rem);
+  margin: 0 2rem 4rem 0;
+}
+.card img{
+  width: 100%;
+}
+.card h4{
+  font-size: 1.2rem;
+  margin-top: 0;
+}
+
+
+
+
+footer{
+  height: 50vh;
+  background-color: #000000;
 }
