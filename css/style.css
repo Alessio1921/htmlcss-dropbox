@@ -218,6 +218,27 @@ i.fa-check{
   height: 100%;
   width: 30%;
 }
+.svg-center{
+  width: 40%;
+  height: 100%;
+}
+.small-underline{
+  border-bottom: solid#e2e2e3;
+  width: 8%;
+  margin: 0 0 2rem 2rem;
+}
+.logo-svg{
+  height: 20%;
+  width: 25%;
+  margin: 2rem 2rem 0;
+}
+.logo-svg img{
+  width: 100%;
+}
+.svg p{
+  font-size: .8rem;
+  padding: 0 2rem 2rem;
+}
 .svg-text{
   width: 70%;
   margin:0 auto;
@@ -227,6 +248,16 @@ i.fa-check{
 .svg-text h2{
   width: 50%;
 }
+/* start questions */
+.question-row{
+  border-top: solid #e1e1e2;
+  padding:2rem 0;
+  width: 100%;
+}
+.question 	div:last-child{
+  border-bottom: solid #e1e1e2;;
+}
 footer{
   background-color: #000000;
+  height: 50vh;
 }
