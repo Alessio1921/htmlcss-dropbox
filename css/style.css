@@ -182,6 +182,7 @@ i.fa-check{
 }
 /* end row plane business  */
 /* start card business */
+
 .img-medium{
   width: 60%;
 }
@@ -190,6 +191,7 @@ i.fa-check{
 }
 .info-business{
   margin-top: 6rem;
+  width: 100%;
 }
 .card{
   width: calc((100% / 3) - 2rem);
@@ -229,7 +231,7 @@ i.fa-check{
   left: 50%;
   transform: translate(-50% , -50%);
   padding: 2.5rem;
-  fill: white;
+  filter: invert(1);
 }
 .svg-center{
   width: 40%;
