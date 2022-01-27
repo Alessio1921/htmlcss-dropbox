@@ -9,12 +9,42 @@ header{
 main{
   margin-top: 70px;
 }
-header li:hover{
+.nav li:hover{
   border-bottom: 3px solid #0061ff;
 }
-header #support:hover{
-  
+li:hover .submenu{
+  display: block;
 }
-header #support:after{
-  
+li:hover body{
+  display: block;
+}
+.submenu{
+  top: 4.6rem;
+  background-color: white;
+  display: none;
+}
+.submenu li:hover{
+  background-color: rgb(221, 219, 219);
+}
+.submenu li{
+  display: block;
+  height: 3rem;
+  margin: 0;
+  padding: 0;
+}
+.question-row p{
+  width:98%;
+}
+.questiom-row i{
+  width: 2%;
+}
+.answer{
+  top: .8rem;
+  display: none;
+}
+.question-row:hover .answer{
+  display: block;
+}
+.question-row:hover i{
+  transform: rotate(180deg);
 }
